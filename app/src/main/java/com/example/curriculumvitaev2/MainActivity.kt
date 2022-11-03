@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.RadioGroup
 import android.widget.Toast
+import android.widget.Toolbar
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 
@@ -26,6 +27,8 @@ class MainActivity : AppCompatActivity() {
         val age = findViewById<TextInputLayout>(R.id.age)
         val radioGroup = findViewById<RadioGroup>(R.id.genderG)
 
+        //val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        //setContentView(toolbar)
 
 
 
